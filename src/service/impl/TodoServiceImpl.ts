@@ -1,6 +1,6 @@
 import { } from '../../model/Todo';
 import { Todo } from '../../model/Todo'
-import { TodoService } from '../../service/TodoService';
+import { TodoService } from '../TodoService';
 import { TodoRepository } from '../../repository/TodoRepository';
 
 export class TodoServiceImpl implements TodoService {
